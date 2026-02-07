@@ -55,3 +55,11 @@ tempfile = "3.3"
 walkdir = "2.3"
 hex = "0.4"
 criterion = "0.3"
+
+[[bench]]
+name = "pdq_benchmark"
+harness = false
+
+[[bench]]
+name = "regime_a_microbenchmark"
+harness = false

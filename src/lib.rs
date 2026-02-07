@@ -63,6 +63,9 @@ use std::ops::Deref;
 /// Downscaled PDQ implementation
 pub mod dwn_pdq;
 
+/// Regime A masked threshold protocol implementation.
+pub mod regime_a;
+
 /// SNARK-based zero-knowledge proof system for PDQ hashes.
 ///
 /// This module is only available when the `snark` feature is enabled.
